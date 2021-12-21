@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/write"
+        android:icon="@drawable/fileplus"
+        android:title="Neue Notiz"/>
+    <item
+        android:id="@+id/output"
+        android:icon="@drawable/calendar_text"
+        android:title="Notiz Ansicht"/>
+    <item
+        android:id="@+id/allView"
+        android:icon="@drawable/notebook"
+        android:title="Notizen Menü"/>
+</menu>

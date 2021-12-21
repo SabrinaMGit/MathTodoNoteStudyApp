@@ -1,0 +1,37 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="item_1">Bücher</string>
+    <string name="item_2">Aufgaben</string>
+    <string name="item_3">Chat</string>
+    <string name="item_4">MyFeed</string>
+
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Passwort</string>
+    <string name="hint_confirm_password">Bestätige Passwort</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Das Feld darf nicht leer sein</string>
+    <string name="error_message_email">Gib eine gültige Email ein</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Erfolgreich Registriert</string>
+    <string name="text_not_member">Du hast noch keinen Account? Registrier dich</string>
+    <string name="text_already_member">Du hast schon ein Account? Login</string>
+    <string name="error_email_exists">Die E-Mail existiert bereits</string>
+    <string name="error_password_match">Die Passwörter stimmen nicht überein</string>
+    <string name="error_valid_email_password">Email oder Password ist falsch</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Android Tutorials Hub</string>
+    <string name="app_name">Do you know it?</string>
+    <string name="text_gast">Login als Gast</string>
+    <string name="allgemeinwissen_app">Allgemeinwissen App</string>
+    <string name="bottomsheet">Hey, whats up?</string>
+    <string name="bottomsheet1">I\'m again here. what you gonna do?</string>
+</resources>

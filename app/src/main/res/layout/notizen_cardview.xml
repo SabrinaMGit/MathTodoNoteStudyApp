@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardview_id"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="190dp"
+    android:layout_height="250dp"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="20dp"
+    cardview:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:orientation="vertical"
+            android:background="#f8f32b">
+
+            <TextView
+                android:id="@+id/thema"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Preview"
+                android:textAllCaps="true"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/notiz"
+                android:layout_width="145dp"
+                android:textSize="13sp"
+                android:layout_marginStart="10dp"
+                android:textColor="#2d2d2d"
+                android:layout_marginVertical="10dp"
+                android:layout_height="match_parent"
+                android:text="Notiz"/>
+
+            <ImageView
+                android:id="@+id/crown"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_favorite"
+                android:layout_gravity="center"
+                android:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

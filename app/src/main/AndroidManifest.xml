@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.user.work">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".activities.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.Quiz_Menu_Activity" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.Work"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".activities.Quiz_Activity" />
+        <activity
+            android:name=".activities.UsersListActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.NavigationDrawer.MatheMain" />
+        <activity
+            android:name=".activities.NavigationDrawer.ToDoList_SetTasks"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name=".activities.NavigationDrawer.NotizenAllView" />
+        <activity
+            android:name=".activities.NavigationDrawer.ToDoList"/>
+        <activity
+            android:name=".fragments.notizenFragmente.notizBottomview"/>
+        <activity
+            android:name=".activities.NavigationDrawer.Blitzrechnen"/>
+        <activity
+            android:name=".activities.TableSQLData"/>
+        <activity
+            android:name=".activities.NavigationDrawer.HardMath"/>
+    </application>
+
+</manifest>
